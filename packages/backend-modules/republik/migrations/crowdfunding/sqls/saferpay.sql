@@ -1,0 +1,1 @@
+ALTER TYPE "paymentMethod" ADD VALUE 'SAFERPAY';

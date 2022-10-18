@@ -261,6 +261,8 @@ type PledgeResponse {
   stripePaymentIntentId: ID
   # returned by payPledge if PaymentIntent is used
   companyId: ID
+  # saferpay
+  saferpayRedirectUrl: String
 }
 
 type SyncPledgeResponse {
@@ -291,6 +293,7 @@ enum PaymentMethod {
   POSTFINANCECARD
   PAYPAL
   PAYMENTSLIP
+  SAFERPAY
 }
 enum PaymentStatus {
   WAITING
