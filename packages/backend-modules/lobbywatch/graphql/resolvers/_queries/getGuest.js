@@ -22,16 +22,18 @@ module.exports = async (_, { locale, id }, { loaders: { translations } }) => {
     ),
   ])
 
-  const {
-    json: { data: parlamentarier },
-  } = await api.data(
-    locale,
-    `data/interface/v1/json/table/parlamentarier/flat/id/${encodeURIComponent(
-      guest.parlamentarier_id,
-    )}`,
-  )
+  if (!guest.parlamentarier) {
+    const {
+      json: { data: parlamentarier },
+    } = await api.data(
+      locale,
+      `data/interface/v1/json/table/parlamentarier/flat/id/${encodeURIComponent(
+        guest.parlamentarier_id,
+      )}`,
+    )
 
-  guest.parlamentarier = parlamentarier
+    guest.parlamentarier = parlamentarier
+  }
 
   return guest && mapGuest(guest, t)
 }
