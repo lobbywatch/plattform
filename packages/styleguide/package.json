@@ -101,7 +101,7 @@
   "scripts": {
     "commit": "git-cz",
     "prepublishOnly": "yarn prebuild && yarn build:lib",
-    "build": "yarn build:lib && if [ \"$SERVER\" = \"styleguide\" ]; then yarn build:docs; fi",
+    "build": "",
     "build:lib": "tsc --project tsconfig.dist.json",
     "build:docs": "react-scripts build",
     "start": "serve -s build",

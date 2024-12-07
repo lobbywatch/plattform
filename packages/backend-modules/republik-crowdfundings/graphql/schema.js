@@ -7,7 +7,7 @@ schema {
 
 type queries {
   crowdfundings: [Crowdfunding]
-  crowdfunding(name: String!): Crowdfunding!
+  crowdfunding(name: String!): Crowdfunding
   pledges: [Pledge!]!
   pledge(id: ID!): Pledge
   draftPledge(id: ID!): Pledge!
