@@ -2,20 +2,19 @@ Bonjour {{name}}
 
 Vous avez soutenu Lobbywatch l'année dernière - un grand merci !
 
-Vous pouvez déduire vos dons de vos impôts. Veuillez trouvez ci-joint une
+Vous pouvez déduire vos dons de vos impôts. Veuillez trouver ci-joint une
 attestation de don pour l'année écoulée.
 
-Nous soutiendrez-vous également en 2024 ?
+Nous soutiendrez-vous également en 2025 ?
 
-Après les élections nationales, l'équipe de Lobbywatch aura du pain sur la
-planche. Nous avons déjà analysé la plupart des nouveaux parlementaires et leurs
-liens avec des organisations, des associations et des entreprises. Notre
-expérience montre qu'une fois que les nouveaux parlementaires sont bien
-acclimaté au parlement,les organisations de lobbying commencent à les recruter
-pour des postes dans les comités et les conseils d'administration. Nous ne
-manquerons donc pas de travail cette année non plus. Nous vous remercions donc
-de bien vouloir nous aider cette année encore à rendre la politique suisse plus
-transparente.
+L'année prochaine, une montagne de travail attend Lobbywatch. Nous continuerons
+à enquêter sur les liens des parlementaires nationaux avec les lobbies, à
+analyser les contributions des lobbies avant les votes et les élections, à
+renouveler notre site web et à surveiller de près les politiciens et les
+lobbyistes. Pour ce faire nous avons besoin de votre soutien, car Lobbywatch est
+financé par la société civile. Nous serions heureux que vous nous aidiez cette
+année encore à rendre la politique suisse plus transparente. Nous vous
+remercions grandement de nous aider dans cette tâche.
 
 {{#if prolong_token}} Verser la cotisation annuelle de membre
 {{frontend_base_url}}/fr/patronage?package=PROLONG&token={{prolong_token}}
